@@ -1,5 +1,6 @@
-.rotate{
-	transform: rotate(45deg);
+#rotate{
+	transform: rotate(90deg);
+	margin-top:-300px;
 }
 
 .container01{
@@ -103,3 +104,14 @@
 	border:4px solid black;
 }
 
+.containerlarge02{
+	transform:translate(-280px,0px);	
+}
+
+.containerlarge03{
+	transform:translate(-560px,0px);	
+}
+
+.containerlarge04{
+	transform:translate(-840px,0px);	
+}
