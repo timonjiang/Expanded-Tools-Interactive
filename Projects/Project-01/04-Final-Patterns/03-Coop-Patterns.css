@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -8,13 +9,26 @@ body{
 	line-height: 1.5em;
 	background:white;
 	font-size: 1em;
+	background:#fff66c;
+	height:800px;
+	width:1500px;
+	border:solid 20px;
+	border-color:black;
 }
 
 h1{
 	margin: 20px;
 	font-size: 3em;
 	font-style: bold;
+	color: white;
 }
+
+
+h2{
+	margin-top:10px;
+	font-size: 2em;
+}
+
 
 .main{
 	width: 80%;

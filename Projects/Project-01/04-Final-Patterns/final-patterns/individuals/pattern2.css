@@ -1,0 +1,166 @@
+body{
+   
+   background-color:#ffdd35;
+   height:2000px;
+   width:2000px;
+   animation:color1 10s infinite;
+
+}
+
+
+@keyframes color1{
+	 0%{
+        background-color:#593fff;
+      }
+      
+      10%{
+        background-color: #fff35a;
+      }
+
+       40%{
+        background-color: #59ffb4;
+      }
+ 
+      60%{
+        background-color: #ff3735;
+       }
+     100%{
+       background-color: #593fff;
+     }
+    
+}
+
+
+.all-1{
+	margin-top: 30px;
+	position:fixed;
+}
+
+
+.all-2{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position:absolute;
+
+}
+
+
+.container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+
+}
+
+
+.container2{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	position: relative;
+
+}
+
+
+.diamond{
+	
+/* 	mix-blend-mode:difference; */
+	width:0;
+	height:0;
+	border:50px solid transparent;
+	border-bottom:70px solid rgb(82, 247, 255);
+	position:relative;
+	top:-50px;
+	display: inline-block;
+	margin-top:-30px;
+	margin-right: -50px;
+	opacity: 0.5;
+	animation:color 5s infinite;
+
+	
+}
+.diamond:after{
+	content:'';
+	mix-blend-mode:difference;
+	position:absolute;
+	left:-50px;
+	top:70px;
+	width:0;
+	height:0;
+	border:50px solid transparent;
+	border-top:70px solid rgb(255, 121, 214);	
+}
+
+
+
+
+.diamond2{
+	
+	mix-blend-mode:multiply;
+	width:0;
+	height:0;
+	border:200px solid transparent;
+	border-bottom:280px solid red;
+	position:relative;
+	top:-100px;
+	display: inline-block;
+	margin-top:-150px;
+	margin-right: -200px;
+	opacity: 0.3;
+	
+	
+}
+
+
+.diamond2:after{
+	content:'';
+	mix-blend-mode:difference;
+	position:absolute;
+	left:-200px;
+	top:280px;
+	width:0;
+	height:0;
+	border:200px solid transparent;
+	border-top:280px solid green;	
+}
+
+
+/* .diamond2:hover{
+	width:10;
+	height:10;
+	border:100px solid transparent;
+	border-bottom:280px solid black;
+	position:relative;
+	top:-200px;
+	display: inline-block;
+	margin-top:-150px;
+	margin-right: -200px;
+	opacity: 1;
+	transition: 2s cubic-bezier(0.4, 0, 1, 1);
+
+} */
+
+
+
+@keyframes color2{
+	 0%{
+        background-color:#78ffab;
+      }
+      
+      10%{
+        background-color: #f492ff;
+      }
+
+       40%{
+        background-color: #ff731f;
+      }
+ 
+      60%{
+        background-color: #83f3ff;
+       }
+     100%{
+       background-color: #000000;
+     }
+    
+}

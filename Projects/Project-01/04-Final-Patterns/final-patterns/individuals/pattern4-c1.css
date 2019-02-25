@@ -1,0 +1,119 @@
+body{
+ background-color:#000000;
+}
+
+
+.container01{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	position: absolute;
+	mix-blend-mode:hard-light;
+}
+
+
+.container02{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	position:fixed;
+	margin: 10px;
+	mix-blend-mode:multiply;
+}
+
+.container03{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	position:absolute;
+	margin: 0px;
+	mix-blend-mode:difference;
+	animation:move 10s infinite;
+}
+
+
+
+@keyframes move{
+	0%{ top:-300px;}
+	50%{top:100px;}
+	100%{top:-300px;}
+}
+
+
+.parallelogram-1{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#E83D0B;
+	display:inline-block;
+	border:4px solid black;
+	
+}
+
+.parallelogram-2{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#0031D0;
+	display:inline-block;
+	border:4px solid black;
+}
+
+.parallelogram-3{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#A3C7EA;
+	display:inline-block;
+	border:4px solid black;
+}
+
+.parallelogram-4{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#FED2D0;
+	display:inline-block;
+	border:4px solid black;
+}
+
+.parallelogram-5{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#AF80BA;
+	display:inline-block;
+	border:4px solid black;
+}
+
+.parallelogram-6{
+	width:100px;
+	height:100px;
+	transform:skew(30deg);
+	background:#FB8816;
+	display:inline-block;
+	border:4px solid black;
+}
+
+
+
+.parallelogram-1:hover {
+    transform:rotate(45deg);
+    width:1000px;
+    height:1000px;
+    border-radius:50%;
+}
+
+.parallelogram-3:hover {
+    transform:rotate(45deg);
+    width:8000px;
+    height:800px;
+    border-radius:80%;
+}
+
+.parallelogram-5:hover {
+    transform:rotate(45deg);
+    width:800px;
+    height:800px;
+    border-radius:80%;
+}
