@@ -317,15 +317,15 @@ body {
 
 @keyframes color2{
    0%{
-        background-color:#ffffff00;
+        background-color:#ffa92f;
       }
       
        50%{
-        background-color: #ffa92f;
+        background-color: #ffffff00;
       }
  
      100%{
-       background-color: #ffffff00;
+       background-color: #ffa92f;
      }
     
 }
