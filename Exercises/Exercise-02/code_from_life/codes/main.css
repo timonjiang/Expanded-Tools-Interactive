@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #404092;
+}
+
+.canvas {
+    width: 900px;
+    height: 556px;
+    margin: 200px auto;
+    background: #ccd161;
+    position: relative;
+    border: solid black 5px;
+}
+
+.canvas2 {
+    width: 890px;
+    height: 200px;
+    margin: 0px auto;
+    background: #e5f2dd;
+    position: absolute;
+    border: solid black 0px;
+}
+
+
+.canvas3 {
+    width: 890px;
+    height: 5px;
+    margin: 200px auto;
+    background: #000000;
+    position: absolute;
+    border: solid black 0px;
+}
+
+.square1{
+        width: 1000px;
+        height: 150px;
+        background: #d2cdbc;
+        position: absolute;
+        margin-top:551px;
+    }
+
+.square2{
+        width: 1000px;
+        height: 150px;
+        background: #d2cdbc;
+        position: absolute;
+        margin-top:551px;
+    }
+ 
+    
+.border1{
+        width: 890px;
+        height: 5px;
+        background: #000000;
+        position: absolute;
+        margin-top:546px;
+    }
+
+        
+.border2{
+        width: 890px;
+        height: 5px;
+        background: #000000;
+        position: absolute;
+        margin-top:546px;
+    }
+
+
+
+
+.vase{
+    position:absolute;
+    margin:-120px -30px;
+}
+
+
+    .vasetop {
+          width: 100px;
+          height: 80px;
+          background: #b7f9bc;
+          position: absolute;
+          margin: 190px 335px;
+          border-radius: 20%;
+          border: solid black 3px;
+          display:block;
+        }
+
+
+    .vasebody {
+          position: absolute;
+          width: 320px;
+          height: 300px;
+          background: #b7f9bc;
+          border-radius: 30% / 30%;
+          color: white;
+          margin:250px  224px;
+          border: solid black 3px;
+
+        }
+
+
+.book1{
+    position:absolute;
+    margin:20px -10px;
+}
+
+
+    .book1-2 {
+        position:absolute;
+        width: 280px;
+        height: 320px;
+        background: #72d0af;
+        border: solid black 3px; 
+        transform: skewY(10deg);
+        margin:0px 580px;
+        }
+
+    .book1-1 {
+        position:absolute;
+        width: 280px;
+        height: 320px;
+        background: #ffffff;
+        border: solid black 3px; 
+        transform: skewY(10deg);
+        margin:-20px 600px;
+        }
+
+        
+     .book1-cover2 {
+        width: 280px;
+        height: 30px;
+        background: #ff7d50; 
+        transform: skewY(10deg);
+        margin:100px 580px;
+        border: solid black 3px; 
+        position:absolute;
+
+     }
+
+
+     .book1-cover {
+        width: 280px;
+        height: 80px;
+        background: #2f926f;
+        border: solid black 3px; 
+        transform: skewY(10deg);
+        margin:0px 580px;
+
+     }
+
+
+.book2{
+    position:absolute;
+    margin:195px -20px;
+}
+ 
+    .book2-2 {
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    background: #ff6cb6;
+    border: solid black 3px; 
+    transform: skew(-40deg,10deg);
+    margin:150px 525px;
+    }
+
+    .book2-1 {
+    position:absolute;
+    width: 300px;
+    height: 140px;
+    background: #ececec;
+    border: solid black 3px; 
+    transform: skew(-40deg,10deg);
+    margin:180px 535px;
+    }
+
+
+.branches{
+    postion:absolute;
+    margin:10px 10px;
+
+}
+
+
+    .branch1 {
+    position:absolute;
+    width: 200px;
+    height: 5px;
+    background: #674529;
+    border: solid black 2px; 
+    transform: rotate(60deg);
+    margin:160px 240px;
+    }
+
+
+    .ball1 {    
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffe045;
+    border-radius: 50%;
+    margin:-80px 300px;
+    border:solid 3px black;
+    }
+
+    .branch2 {
+    position:absolute;
+    width: 300px;
+    height: 5px;
+    background: #674529;
+    border: solid black 2px; 
+    transform: rotate(100deg);
+    margin:105px 255px;
+    }
+
+
+    .ball2 {    
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffe045;
+    border-radius: 50%;
+    margin:-60px 390px;
+    border:solid 3px black;
+    }
+
+    .branch3 {
+    position:absolute;
+    width: 350px;
+    height: 5px;
+    background: #674529;
+    border: solid black 2px; 
+    transform: rotate(78deg);
+    margin:145px 200px;
+    }
+
+
+    .ball3 {    
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffe045;
+    border-radius: 50%;
+    margin:70px 330px;
+    border:solid 3px black;
+    }
+
+
+    .branch4 {
+    position:absolute;
+    width: 240px;
+    height: 5px;
+    background: #674529;
+    border: solid black 2px; 
+    transform: rotate(122deg);
+    margin:195px 300px;
+    }
+
+    .ball4 {    
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffe045;
+    border-radius: 50%;
+    margin:60px 450px;
+    border:solid 3px black;
+    }
+
+
+    .branch5 {
+    position:absolute;
+    width: 250px;
+    height: 5px;
+    background: #674529;
+    border: solid black 2px; 
+    transform: rotate(70deg);
+    margin:230px 280px;
+    }
+
+    .ball5 {   
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background: #ffe045;
+    border-radius: 50%;
+    margin:30px 250px;
+    border:solid 3px black;
+    }
+
+
+.container{
+    position:absolute;
+    margin:90px 40px;
+
+}
+
+
+    .oval-top{
+        width:220px;
+        height:230px;
+        border:solid black 3px;
+        background:#ffffff38;
+        position:absolute;
+        border-radius:200px 100px;
+        margin:10px 0px;
+        transform:rotateX(50deg);
+        opacity:0.5;
+    }
+
+
+    .oval-bottom{
+        width:220px;
+        height:230px;
+        border:solid black 3px;
+        background:white;
+        position:absolute;
+        border-radius:200px 100px;
+        margin:240px 0px;
+        transform:rotateX(50deg);
+        opacity:0.3;
+         mix-blend-mode:overlay;
+    }
+
+
+    .oval-body{
+        width:230px;
+        height:630px;
+        border:solid black 3px;
+        background:white;
+        position:absolute;
+        border-radius:200px 100px;
+        margin:-75px -4px;
+        transform:rotateX(50deg);
+        opacity:0.4;
+
+    }
+
+.head{
+
+}
+
+
+.doll{
+    position:absolute;
+    margin:150px 60px;
+
+}
+
+
+.face{
+        width:110px;
+        height:100px;
+        border:solid black 3px;
+        background:white;
+        position:absolute;
+        border-radius:50px 50px;
+        margin:-10px 0px;
+}
+
+.eye1{
+    height:15px;
+    width:15px;
+    background:black;
+    position:absolute;
+    border-radius:50% 50%;
+    margin:40px 25px;
+
+}
+
+.eye2{
+    height:15px;
+    width:15px;
+    background:black;
+    position:absolute;
+    border-radius:50% 50%;
+    margin:40px 80px;
+}
+
+
+
+.hair{
+    position:absolute;
+    margin:0px 0px;
+
+}
+
+    .hair-basic{
+        width:150px;
+        height:100px;
+        position:absolute;
+        background:blacK;
+        border-radius:30px 30px;
+        margin:-50px -20px;
+
+    }
+
+    .hair-top{
+        width:90px;
+        height:40px;
+        position:absolute;
+        background:black;
+        border-radius:30px 30px;
+        margin:-70px 10px;
+
+    }
+
+    .curtain{
+        width: 96px;
+        height: 70px;
+        background:#ffffff;
+        border-radius:40%/ 80%;
+        margin:0px 10px;
+        position:absolute;
+    }
+
+.hairdec1{
+    height:40px;
+    width:40px;
+    background:#ff6cb6;
+    position:absolute;
+    border-radius:50% 50%;
+    margin:-20px 0px;
+    border:solid black 3px;
+}
+
+
+.hairdec2{
+    height:40px;
+    width:40px;
+    background:#ff6cbd;
+    position:absolute;
+    border-radius:50% 50%;
+    margin:-20px 76px;
+    border:solid black 3px;
+}
+
+
+.body1{
+     width: 110px;
+     height: 160px;
+     background: #000000;
+     position: absolute;
+     margin: 70px -5px;
+     border-radius: 30% 30%;
+     border: solid black 1px;
+}
+
+
+.body2{
+     width: 140px;
+     height: 90px;
+     background: #ff6cb5;
+     position: absolute;
+     margin: 100px -20px;
+     border-radius: 30% 30%;
+     border: solid black 3px;
+}
+
+
+
+     
+
+
+      
