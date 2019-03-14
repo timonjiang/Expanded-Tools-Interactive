@@ -6,6 +6,32 @@ body {
     background: #404092;
 }
 
+.light{
+    width:2000px;
+    height:1000px;
+    background:#1e4f9c;
+    position:absolute;
+    margin:-210px -400px;
+    mix-blend-mode:multiply;
+    animation:color 5s infinite;
+}
+
+@keyframes color{
+   0%{
+        background-color:#ffffff;
+      }
+      
+       50%{
+        background-color: #1e4f9c;
+      }
+ 
+     100%{
+       background-color: #ffffff;
+     }
+    
+}
+
+
 .canvas {
     width: 900px;
     height: 556px;
@@ -278,15 +304,33 @@ body {
 
 .flame{
     position: absolute;
-    margin:-210px 190px;
+    margin:-80px 230px;
     width: 80px;
     height: 80px;
     border-radius: 0px 70px 30px 70px;
-    background-color: #f5ff2f;
+    background-color: #ffa92f;
     transform: rotate(45deg);
-    border:solid black 3px;
+    animation: color2 infinite 5s;
 
 }
+
+
+@keyframes color2{
+   0%{
+        background-color:#ffffff00;
+      }
+      
+       50%{
+        background-color: #ffa92f;
+      }
+ 
+     100%{
+       background-color: #ffffff00;
+     }
+    
+}
+
+
 
 
 .hole {
