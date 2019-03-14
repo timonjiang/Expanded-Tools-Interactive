@@ -339,8 +339,32 @@ body {
     }
 
 .head{
-
+    animation:shake infinite 0.5s;
 }
+
+
+.head:hover{
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+    
+@keyframes shake {
+  0% { transform: translate(5px, 5px) rotate(0deg); }
+  10% { transform: translate(-1px, -5px) rotate(-3deg); }
+  20% { transform: translate(-3px, 0px) rotate(3deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(10px, -10px) rotate(9deg); }
+  50% { transform: translate(-10px, 3px) rotate(-9deg); }
+  60% { transform: translate(-9px, 10px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-3deg); }
+  80% { transform: translate(-1px, -1px) rotate(3deg); }
+  90% { transform: translate(1px, 3px) rotate(0deg); }
+  100% { transform: translate(1px, -3px) rotate(-3deg); }
+}
+
 
 
 .doll{
