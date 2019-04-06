@@ -1,0 +1,139 @@
+@import url();
+
+body {
+	background: black;
+
+}
+
+/* Text
+-------------------------------------------------- */
+
+h1{
+	font-size: 90px;
+	color:white;
+	font-family: "impact";
+	margin:-10px;
+	text-size-adjust: 80%;
+	text-align:center;	
+	white-space: nowrap;
+    overflow: hidden;
+}
+
+
+p{
+  font-family: "impact";
+  color:white;
+  position:relative;
+  font-size: 22px;
+  color:#353535;
+  margin:40px 80px;
+}
+
+
+
+/* Image
+-------------------------------------------------- */
+
+.logo {
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: center;
+
+}
+
+.icons {
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin:50px;
+}
+
+.container-icons{
+  
+    
+}
+
+
+
+
+/* iPAD 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+ 
+
+  /* text */
+
+   p{ 
+	 color: #ed3500;
+	 font-size: 28px;
+
+	 }
+
+   h1{
+   	  color:grey;
+   	  font-size:60px;
+   }
+
+
+  /* image */
+
+}
+
+
+
+
+/* MOBILE
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	 body {
+		background-color: white;	
+		   }
+
+  /* text */
+
+	 h1{ 
+	 	color: #ed3500;
+	 	font-size: 35px;
+	 	margin-top:20px;
+	 }
+
+
+	 p{ 
+	 	color: black;
+	 	font-size: 14px;
+	 	margin:20px 60px;
+
+	 }
+
+
+
+  /* image */
+
+    .logo{
+    	background-color: #ed3500;
+    }
+
+    .icons{
+    	height:300px;
+    	width: 300px;
+    }
+
+    .container-icons{
+    	display: flex;
+    	justify-content: center;
+    }
+  
+    
+}
+
+
+}
+
+
+

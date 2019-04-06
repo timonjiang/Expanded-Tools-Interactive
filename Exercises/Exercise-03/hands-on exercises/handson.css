@@ -1,0 +1,109 @@
+body{
+	background-image: radial-gradient(circle farthest-corner at 0px 0px, antiquewhite,beige);
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+h1{
+	font-size: 5em;
+	font-weight: bold;
+
+}
+
+/*CONTAINERS*/
+
+#container-1{
+	float:right;
+	width:50%;
+}
+
+#container-1 h1{
+	color:transparent;
+	-webkit-text-stroke:2px red;
+
+}
+
+#container-2 h1{
+	color:transparent;
+	-webkit-text-stroke:2px orange;
+
+}
+
+#container-1 p span img{
+
+}
+
+#container-2 p span img{
+	width:100px;
+	
+}
+
+
+/*STYLES FOR FRUITS*/
+
+#container-1a .apple{
+	width:100px;
+	height:100px;
+	background-image: radial-gradient(red 0%, darkorange 80%, lightyellow 100%);
+	border-radius:40% 40% 50% 50%;
+	margin:10px;
+	display:inline-block;
+	position:relative;
+}
+
+#container-1a .applestem{
+	width:4px;
+	height:25px;
+	background-image: linear-gradient(to left, brown 0%,burlywood 90%);
+	margin-left:50%;
+}
+
+#container-1a .curvestem{
+	width:4px;
+	height:25px;
+	border:5px solid green;
+	border-radius:50%;
+}
+
+
+#different{
+	top:50px;
+	left:40px;
+}
+
+.apple2{
+	width:100px;
+	height:100px;
+	background-image: radial-gradient(blue 0%, purple 80%, lightblue 100%);
+	border-radius:40% 40% 50% 50%;
+	margin:10px;
+	position:absolute;
+	top:10%;
+	right:0px;
+
+}
+
+.orange{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: orange;
+
+}
+
+.orangestem{
+	width:5px;
+	height:3px;
+	border-radius: 50%;
+	background-color:green;
+	margin-left:50%;
+	margin-top:20px;
+}
+
+
+/*nth child selector*/
+
+.orange:nth-child(even){
+	margin-left:220px;
+	background-color: pink;
+	background-image: radial-gradient(ellipse at )
+}
